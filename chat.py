@@ -58,7 +58,7 @@ st.markdown(
 
 st.title("Disaster Response Bot")
 
-os.environ['GOOGLE_API_KEY'] = os.getenv("AIzaSyBgT5U0zfrvaRyJdn70MQjsUZbGQAzx3CM")
+os.environ['GOOGLE_API_KEY'] = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Select the model
