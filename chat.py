@@ -1,4 +1,3 @@
-# filepath: /c:/Users/eeshk/OneDrive/Desktop/chatbot/chat.py
 import os
 from dotenv import load_dotenv
 import streamlit as st
